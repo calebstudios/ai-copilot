@@ -1,0 +1,42 @@
+# Ignore environment files (API keys, credentials)
+.env
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.ai_copilot/
+
+# Ignore logs and temp files
+*.log
+*.out
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore dependency installs
+pip-wheel-metadata/
+pip-log.txt
+*.egg-info/
+*.egg
+
+# Ignore system files (Windows, macOS)
+Thumbs.db
+.DS_Store
+
+# Ignore IDE/editor settings (VS Code, PyCharm, JetBrains)
+.vscode/
+.idea/
+*.iml
+
+# Ignore build and deployment files (if using Docker or AWS)
+Dockerfile
+serverless.yml
